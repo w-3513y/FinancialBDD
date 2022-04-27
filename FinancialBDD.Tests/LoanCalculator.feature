@@ -10,6 +10,7 @@ Scenario: TotalLoanPayment_1
  When I calculate the payment amount
  Then the loan payment should be 12682.42 monetary values
 
+@Brazil
 Scenario: TotalLoanPayment_2
  Given that the loan amount was 11937.28 monetary values
  And an interest rate of 4 % has been set
@@ -17,6 +18,7 @@ Scenario: TotalLoanPayment_2
  When I calculate the payment amount
  Then the loan payment should be 30598.88 monetary values
 
+@Brazil
 Scenario: TotalLoanPayment_3
  Given that the loan amount was 15000 monetary values
  And an interest rate of 6 % has been set
